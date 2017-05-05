@@ -1,0 +1,241 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	/*background-color: darkseagreen;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	color: #282828;
+	font-size: 1.4rem;
+}
+
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+fieldset,
+input,
+abbr,
+article,
+aside,
+command,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+mark,
+meter,
+nav,
+output,
+progress,
+section,
+summary,
+time,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+address,
+caption,
+cite,
+code,
+em,
+strong,
+th,
+figcaption {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+	list-style: none;
+}
+
+fieldset,
+iframe,
+img {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section,
+figure,
+figcaption,
+video {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+input,
+select,
+textarea {
+	outline: 0;
+	border: 0;
+	border: 1px solid #555;
+	border-radius: 4px;
+}
+
+input,
+select,
+textarea:focus {
+	outline: 0;
+	border: 0;
+	transition: border 0.3s ease-in-out;
+	border: 1px solid rgba(82, 168, 236, .8);
+	box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+	border-radius: 4px;
+}
+
+input[type="text"] {
+	background-position-y: -1px;
+}
+
+i,
+cite,
+em,
+var,
+address {
+	font-style: normal;
+}
+
+a {
+	outline: 0;
+}
+
+a:active {
+	outline: 0;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+*:focus {
+	outline: none;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+/*为了在PC浏览器打开 ,让页面居中*/
+
+/*.wrap {
+	max-width: 414px;
+	margin: 0 auto;
+}*/
+
+
+/*添加了一些flex布局样式*/
+
+.flexbox {
+	display: flex;
+	display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+}
+
+.flexbox-item {
+	display: block;
+	min-width: 0;
+	flex: 1;
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-o-flex: 1;
+	-ms-flex: 1;
+}
+
+.flexbox-column {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
+.flexbox-none {
+	flex: none;
+	-webkit-flex: none;
+}
+
+.flexbox-center {
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.flexbox-auto {
+	display: block;
+	width: auto;
+}
